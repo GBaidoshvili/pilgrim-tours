@@ -1,0 +1,264 @@
+		body
+		{
+		 margin: 0px;
+		}		
+		.tour
+		{
+		 width: 1000px;
+		 height: 200px;
+		 margin: 15px auto;
+		 overflow: hidden;
+		 position: relative;
+		 border-radius: 20px;
+		 box-shadow: 0 5px 5px grey;
+		}
+		
+		.tourimage
+		{
+		 width: 100%;
+		}
+		
+		.tourinfo
+		{
+		 height: 120px;
+		 width: 800px;
+		 left: -800px;
+		 position: absolute;
+		 bottom: 0;
+		 background-image: url("E/images/info.png");
+		 opacity: 0.8;
+		 text-align: center;
+		 font-size: 12pt;
+		 text-align: left;
+		 text-decoration: none;
+		 color: white;
+		 transition: .4s;
+		 -webkit- transition: .4s;
+		 -o- transition: .4s;
+		 -moz- transition: .4s;
+		}
+		
+		.tourtitle
+		{
+		 height: 75px;
+		 width: 800px;
+		 left: -800px;
+		 position: absolute;
+		 top: 0;
+		 text-align: left;
+		 font-size: 30pt;
+		 background-image: url("E/images/title.png");
+		 opacity: 0.8;
+		 text-decoration: none;
+		 color: white;
+		 transition: .2s;
+		 -webkit- transition: .2s;
+		 -o- transition: .2s;
+		 -moz- transition: .2s;
+		}
+		
+		.infotext
+		{
+		 width: 550px;
+		 margin-left: 15px;
+		}
+		
+		.titletext
+		{
+		 width: 550px;
+		 margin-left: 15px;
+		 margin-top: 10px;
+		}
+		.tour:hover .tourinfo
+		{
+		 left: 0;
+		}
+		
+		.tour:hover .tourtitle
+		{
+		 left: 0;
+		}
+		
+		
+		#header
+		{
+		 height: 500px;
+		 width: 100%;
+		}
+		
+		#logocontainer
+		{
+		 width: 16%;
+		 margin-left: 42%;
+		 top: 150px;
+		 position: absolute;
+		}
+		
+		#logo
+		{
+		 width: 100%;
+		}
+		
+		#logo2
+		{
+		 height: 90%;
+		 width: 100px;
+		 background-size: 58px 35px;
+		 background-repeat: no-repeat;
+		 margin-left: 10px;
+		 margin-top: 2px;
+		 opacity: 0;
+		 transition: 1s;
+		 background-image: url("E/images/logo2.jpg");
+		 -webkit- transition: 1s;
+		 -o- transition: 1s;
+		 -moz- transition: 1s;
+		}
+
+		
+		#slider
+		{
+		 height: 500px;
+		 width: 100%;
+		 position: relative;
+		 min-width: 1000px;
+		 
+		}
+		
+		#slider img
+		{
+		 width: 100%;
+		}
+			
+		.slide
+		{
+		 position: absolute;
+		 overflow: hidden;
+		 display: none;
+		 height: 500px;
+		 width: 100%;
+		}
+		
+
+		
+		.slidernav
+		{
+		 z-index: 999;
+		 opacity: 0;
+		 position: absolute;
+		 cursor: pointer;
+		 transition: .5s;
+		}
+		
+		.slidernav:hover
+		{
+		 opacity: 0.8;
+		}
+		
+		#slider:hover #sliderpointwrapper
+		{
+		opacity: 0.8;
+		}
+		
+		#arrowright
+		{
+		 height: 350px;
+		 width: 70px;
+		 right: 0;
+		 background-image: url(E/images/arrowright.png);
+		}
+		
+		#arrowleft
+		{
+		 height: 350px;
+		 width: 70px;
+		 left: 0;
+		 background-image: url(E/images/arrowleft.png);
+		}
+		
+		#sliderpointwrapper 
+		{
+		 height: 20px;
+		 width: 130px;
+		 position: absolute;
+		 top: 0px;
+		 right: 10px;
+		}
+		
+		.sliderpoint
+		{
+		 height: 20px;
+		 width: 20px;
+		 background-image: url(E/images/sliderpointp.png);
+		 position: relative;
+		 margin-left: 10px;
+		 float: left;
+		}
+		
+		
+		.slide:hover .slidetitle
+		{
+		 text-decoration: underline;
+		}
+
+		
+		.menubar
+		{
+		 width: 100%;
+		 height: 40px;
+		 z-index: 999;
+		 position: absolute;
+		 top: 460px;
+		}
+		
+		
+		#wrap
+		{
+		 height: auto;
+		 width:100%;
+		}
+		
+		.dummy
+		{
+		 width: 10%;
+		 height: 100%;
+		 float: left;
+		 opacity: .8;
+		 background-color: black;
+		 transition: 1s;
+		 -webkit- transition: 1s;
+		 -o- transition: 1s;
+		 -moz- transition: 1s;
+		 }
+		
+		.category
+		{
+		 width: 16%;
+		 height: 100%;
+		 float: left;
+		 opacity: .8;
+		 background-color: black;
+		 transition: 1s;
+		 -webkit- transition: 1s;
+		 -o- transition: 1s;
+		 -moz- transition: 1s;
+		 color: white;
+		 font-size: 14pt;
+		 text-align: center;
+		 line-height: 30pt;
+		}
+		
+		.category:hover
+		{
+		 text-decoration: underline;
+		}
+		
+		#footer
+		{
+		 height: 100px;
+		 width: 100%;
+		 text-align: center;
+		 color: white;
+		 background-color: black;
+		 line-height: 80pt;
+		}
