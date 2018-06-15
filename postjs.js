@@ -71,6 +71,7 @@ $("#arr2").on("click",goRight);
 
 document.onkeydown = function(event){
 	var keyCode = event.keyCode;
+	console.log(keyCode);
 	if(keyCode==37 &&  $("#imgDisplay").css("display") != "none")
 	{goLeft()}
 	else if (keyCode==39 && $("#imgDisplay").css("display") != "none")
